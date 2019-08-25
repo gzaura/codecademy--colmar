@@ -1,0 +1,54 @@
+@import "reset.css";
+
+body {
+  font-family: verdana, sans-serif;
+  color: grey;
+  margin-top: 64px;
+}
+
+/* NAV */
+
+.desktop-nav {
+  top: 0;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.desktop-nav h1 {
+  display: inline-block;
+}
+
+.desktop-nav span {
+  color: lightgrey;
+}
+
+.logo {
+  margin-left: 24px;
+}
+
+.menu {
+  margin-right: 24px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: grey;
+  margin-left: 16px;
+}
+
+/* HEADER */
+
+#header {
+  background-color: lightgrey;
+}
+
+#header img {
+  width: 60%;
+  margin: 32px 24px;
+}
