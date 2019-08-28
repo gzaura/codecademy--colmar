@@ -186,3 +186,18 @@ h3 {
 .courses-block-text p {
   margin: 8px 0px;
 }
+
+/* THESIS */
+
+#thesis {
+  display: flex;
+}
+
+/* FOOTER */
+
+footer {
+  border-top: #f1f1f1 solid 2px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px 50px 24px;
+}
