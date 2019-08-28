@@ -2,10 +2,24 @@
 
 body {
   font-family: verdana, sans-serif;
-  color: grey;
+  color: #584b4f;
   margin-top: 64px;
+  line-height: 1.5;
 }
 
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.gray-background {
+  background-color: lightgray;
+}
 /* NAV */
 
 .desktop-nav {
@@ -45,10 +59,130 @@ body {
 /* HEADER */
 
 #header {
-  background-color: lightgrey;
+  display: flex;
 }
 
 #header img {
   width: 60%;
   margin: 32px 24px;
+}
+
+.header-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 24px;
+  margin-right: 72px;
+}
+
+.header-text h3 {
+  margin: 24px auto;
+}
+
+.header-text a {
+  background-color: #584b4f;
+  padding: 8px 70px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* INFORMATION */
+
+#information {
+  display: flex;
+}
+
+.dude-says {
+  padding-top: 32px;
+  font-size: 0.7rem;
+}
+
+.information-header {
+  width: 60%;
+  padding: 32px 24px;
+  border-right: #f1f1f1 solid 2px;
+}
+
+.information-header img {
+  width: 100%;
+  padding-bottom: 32px;
+}
+
+.information-header h2 {
+  padding-bottom: 32px;
+}
+.information-block {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.information-container img {
+  display: flex;
+  height: auto;
+  width: 35%;
+  padding: 16px;
+}
+.top-border {
+  border-top: #f1f1f1 solid 5px;
+}
+
+.information-container {
+  display: flex;
+  margin-top: 16px;
+}
+
+.information-container-text {
+  display: flex;
+  width: 65%;
+  margin-right: 16px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.information-container-text a {
+  text-decoration: none;
+  color: blue;
+}
+
+.information-container-text p {
+  padding: 8px 0px;
+}
+
+/* COURSES */
+
+#courses {
+  background-color: #f1f1f1;
+}
+
+#courses h2 {
+  padding: 32px 0px 16px 0px;
+  text-align: center;
+}
+
+.courses-container {
+  display: flex;
+  margin: 0px 72px;
+  padding-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.courses-block {
+  background-color: white;
+  margin: 16px;
+  width: 30%;
+}
+
+.courses-block img {
+  height: auto;
+  width: 100%;
+}
+
+.courses-block-text {
+  margin: 16px 16px 24px 16px;
+}
+
+.courses-block-text p {
+  margin: 8px 0px;
 }
