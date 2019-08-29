@@ -165,6 +165,7 @@ h3 {
   margin: 0px 72px;
   padding-bottom: 32px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .courses-block {
