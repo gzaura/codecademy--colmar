@@ -21,6 +21,10 @@ h3 {
 }
 /* NAV */
 
+.mobile-nav {
+  display: none;
+}
+
 .desktop-nav {
   top: 0;
   position: fixed;
@@ -103,6 +107,10 @@ h3 {
   border-right: #f1f1f1 solid 2px;
 }
 
+.mobile-image {
+  display: none;
+}
+
 .information-header img {
   width: 100%;
   padding-bottom: 32px;
@@ -150,6 +158,10 @@ h3 {
 }
 
 /* COURSES */
+
+.courses-container-mobile {
+  display: none;
+}
 
 #courses {
   background-color: #f1f1f1;
