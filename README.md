@@ -1,1 +1,1 @@
-Project from codecademy.com 
+HTML and CSS project from codecademy.com
